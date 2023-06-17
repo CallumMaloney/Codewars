@@ -40,12 +40,11 @@ function numberOfPairs(gloves) {
         if (glovesCopy[i] === glovesCopy[j]) {
           pairs++;
           glovesCopy.splice(i, 1);
-          glovesCopy.splice(j - 1, 1);
+          glovesCopy.splice(j, 1);
           i -= 2;
           break;
         }
       }
     }
-  
     return pairs;
   }
