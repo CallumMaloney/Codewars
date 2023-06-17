@@ -45,6 +45,4 @@ function findOdd(A) {
             pastNumbers.push(A[i]);
         }
     }
-
-  
 }
